@@ -8,6 +8,6 @@ module.exports = function normalizeId(ret) {
     if (typeof ret.id === 'undefined') {
       ret.id = ret._id.toString();
     }
-    delete ret._id;
+    // delete ret._id;
   }
 };
